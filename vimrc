@@ -8,3 +8,5 @@ map <leader>gd :Git diff<cr>
 map <leader>gds :Gdiffsplit<cr>
 map <leader>gs :Gstatus<cr>
 map <leader>ln :se nu<cr>
+nnoremap <Leader>a :Ack!<Space>
+let g:ackhighlight = 1

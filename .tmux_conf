@@ -1,3 +1,4 @@
+# Tmux 快捷键 & 速查表 & 简明教程 https://gist.github.com/ryerh/14b7c24dfd623ef8edc7
 set -g base-index         1     # 窗口编号从 1 开始计数
 set -g display-panes-time 10000 # PREFIX-Q 显示编号的驻留时长，单位 ms
 set -g mouse              on    # 开启鼠标
