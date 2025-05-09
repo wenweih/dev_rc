@@ -1,0 +1,47 @@
+## Copy mode (vi mode)
+- Prefix [ - start copy mode
+- Prefix ] - past from copy mode
+- ^ - back to indentation
+- esc - clear selection
+- enter - copy selection
+- j - cursor down
+- h - cursor left
+- l - cursor right
+- k - cursor down
+- L - cursor to bottom line
+- M - cursor to middle line
+- H - cursor to top line
+- d - delete entire line
+- D - delete to end of line
+- $ - end of line
+- : - goto line
+- ⌃-d - half page down
+- ⌃-u - half page up
+- ⌃-f - next page
+- w - next word
+- p - paste buffer
+- ⌃-b - previous page
+- b - previous word
+- q - quit mode
+- ⌃-down, ⌃-j - scroll down
+- ⌃-up, ⌃-k - scroll up
+- n - next search match
+- ? - search backward
+- / - search forward
+- 0 - start of line
+- space - start selection
+
+## Panes
+- Prefix % split panes by vertical (see tmux-pain-control)
+- Prefix " split panes by horizontal (see tmux-pain-control)
+- Prefix o - cycle through the panes
+- Prefix {arrow key} - navigate to specific pane (see tmux-pain-control)
+- Prefix space - cycle thought layouts
+- Prefix x - close pane
+- Prefix q - show panes numbers
+- Prefix z - switch to whole window mode and back
+- Prefix { - move the current pane left (see tmux-pain-control)
+- Prefix } - move the current pane right (see tmux-pain-control)
+- :setw synchronize-panes - toggle panes synchronization
+- Prefix m mark or unmark current pane
+
